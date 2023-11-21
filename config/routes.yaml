@@ -4,6 +4,12 @@ controllers:
         namespace: App\Controller
     type: attribute
 
+
+# personne_update:
+#     path: /personne/edit/{id}
+#     controller: App\Controller\PersonneController::updatePersonne
+
+
 #kernel:
  #   resource: ../src/Kernel.php
   #  type: annotation
